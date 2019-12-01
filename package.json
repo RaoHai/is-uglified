@@ -9,6 +9,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaoHai/is-uglified.git"
+  },
   "author": "surgesoft@gmail.com",
   "license": "MIT",
   "dependencies": {
