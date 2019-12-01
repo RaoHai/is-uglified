@@ -3,7 +3,7 @@ Detect if a javascript file is uglified
 
 ## How?
 
-We use `Mean Identify Length` measure. For one handwriting javascript file, the average length of identifiers `MUST` bigger than it in an uglified javascript file.
+We use `Mean Identify Length` measure. For one handwriting javascript file, the average length of identifiers `MUST` bigger than it of an uglified one.
 
 E.g.,
 
