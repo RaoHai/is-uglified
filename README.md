@@ -1,6 +1,8 @@
 # is-uglified
 Detect if a javascript file is uglified
 
+![CI](https://github.com/RaoHai/is-uglified/workflows/Node%20CI/badge.svg)
+
 ## How?
 
 We use `Mean Identify Length` measure. For one handwriting javascript file, the average length of identifiers `MUST` bigger than it of an uglified one.
