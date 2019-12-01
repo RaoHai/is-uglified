@@ -1,6 +1,16 @@
 # is-uglified
 Detect if a javascript file is uglified
 
+## How?
+
+We use `Mean Identify Length` measure. For one handwriting javascript file, the average length of identifiers `MUST` bigger than it in an uglified javascript file.
+
+E.g.,
+
+* The `mean identify length` of [react.development.js](https://unpkg.com/react@16.7.0/umd/react.development.js) is `10.8` 
+* The `mean identify length` of the minimized version [react.production.js](https://unpkg.com/react@16.7.0/umd/react.production.min.js) is `1.7`, which is much more smaller than before.
+
+We set the threshold value default to `3`, detecting whether a javascript file is uglified.
 
 ## Installing
 
