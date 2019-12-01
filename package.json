@@ -1,0 +1,24 @@
+{
+  "name": "is-uglified",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^7.1.0",
+    "acorn-walk": "^7.0.0",
+    "simple-statistics": "^7.0.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "uglify-js": "^3.7.1"
+  }
+}
