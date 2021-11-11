@@ -25,7 +25,7 @@ describe('is-uglified', () => {
     expect(result).to.be.true;
   });
 
-  it('should NOT be uglified after minified by uglify-js but with no mangle enabled', () => {
+  it('should NOT be uglified after minified by uglify-js with `mangle` disabled', () => {
     const source = fs.readFileSync(path.join(__dirname, '../example/react.development.js'), 'utf-8');
     const { code } = uglify.minify(source, {
       mangle: false,
